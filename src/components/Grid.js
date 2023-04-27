@@ -60,6 +60,7 @@ export default function Grid() {
                                     _id={element._id}
                                     imgurl={element.imgurl || "https://cdn.vectorstock.com/i/1000x1000/85/43/error-page-not-found-vector-27898543.webp"}
                                     itemName={element.name}
+                                    dsc={element.dsc}
                                 />
                             </Suspense>
                         </div>

@@ -47,6 +47,9 @@ export default function Card(props) {
                 <div className={style.item_name}>
                     <h3>{props.itemName}</h3>
                 </div>
+                <div>
+                    {props?.dsc}
+                </div>
                 <h5 className={!theme ? style.light : style.dark}>‎ {/* this is an invisible character */}</h5>
             </div>
         </div>
@@ -60,5 +63,5 @@ Card.propTypes = {
 }
 Card.defaultProps = {
     itemName: "Unnamed Image",
-    dsc: "No discription is available for this Artical"
+    dsc: "No discription is available for this Image"
 }

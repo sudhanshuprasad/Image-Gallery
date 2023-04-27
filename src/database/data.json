@@ -1,42 +1,43 @@
 [
 	{
 		"_id":"0",
-		"name": "beach",
-		"imgurl": "https://images.unsplash.com/photo-1676019416938-27adeadf91f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+		"name": "Beach",
+		"imgurl": "https://images.unsplash.com/photo-1676019416938-27adeadf91f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+		"dsc": "This is a photo of a beach"
 	},
 	{
 		"_id":"1",
-		"name": "nature",
+		"name": "Nature",
 		"imgurl":"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=1060&t=st=1682544206~exp=1682544806~hmac=bd030c7f2808a55196ab05fb492c6e2979a123f0a2cc075966dac6c47008d99c"
 	},
 	{
 		"_id":"2",
-		"name": "lake",
+		"name": "Lake",
 		"imgurl":"https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg?w=1060&t=st=1682602886~exp=1682603486~hmac=912547f5c45ff8d89069bbb218455ffcad0540b1da119957e403d58eab04d3dc"
 	},
 	{
 		"_id":"3",
-		"name": "tree",
+		"name": "Tree",
 		"imgurl":"https://img.freepik.com/free-photo/lone-tree_181624-46361.jpg?w=1060&t=st=1682602963~exp=1682603563~hmac=a056b30f8e7dd1fecb1fdc9570059e7c9f547e695c703da04ca874990714722b"
 	},
 	{
 		"_id":"4",
-		"name": "mountain",
+		"name": "Mountain",
 		"imgurl":"https://img.freepik.com/free-photo/beautiful-shot-crystal-clear-lake-snowy-mountain-base-during-sunny-day_181624-5459.jpg?w=1060&t=st=1682603024~exp=1682603624~hmac=8947ed4fb8f51e18cc0c23fab41e6fd317c2e3907b13697b0225b0e457b7c277"
 	},
 	{
 		"_id":"5",
-		"name": "forest",
+		"name": "Forest",
 		"imgurl":"https://img.freepik.com/free-photo/pathway-middle-green-leafed-trees-with-sun-shining-through-branches_181624-4539.jpg?w=1060&t=st=1682603063~exp=1682603663~hmac=335208a21f767b6e5bf80ccb6b03d241f59851c69a755aec8ac32a36cabfcf8c"
 	},
 	{
 		"_id":"6",
-		"name": "crater",
+		"name": "Crater",
 		"imgurl":"https://img.freepik.com/free-photo/morskie-oko-tatry_1204-510.jpg?w=1060&t=st=1682603123~exp=1682603723~hmac=06c627636a52f76ad3cfd87b1e689a7ea5ffc9703bce3825e581ccfc7c574903"
 	},
 	{
 		"_id":"7",
-		"name": "boat",
+		"name": "Boat",
 		"imgurl":"https://img.freepik.com/free-photo/sunrise-dal-lake-kashmir-india_1232-4765.jpg?w=996&t=st=1682603180~exp=1682603780~hmac=b832d46fd5193782abe52e14237db5d946806f8cd0c1fab2ec4fceb1d1539612"
 	}
 ]
