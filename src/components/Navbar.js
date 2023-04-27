@@ -42,7 +42,7 @@ export default function Navbar() {
 
                     {/* central section */}
                     <div className={style.search_area}>
-                        <input className={style.search_bar} id="search" type="text" placeholder="Search"></input>
+                        <input className={style.search_bar} onChange={()=>{navigate(`/search?q=${document.getElementById('search').value}`)}} id="search" type="text" placeholder="Search"></input>
                         <img className={style.search_icon}
                         onClick={()=>{navigate(`/search?q=${document.getElementById('search').value}`)}}
                         alt="search"

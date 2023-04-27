@@ -1,6 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { Suspense, useEffect, useState } from 'react'
 import dataFromDB from "../database/data.json"
 import { useSearchParams } from 'react-router-dom';
+import NotFound from '../components/NotFound';
+import Card from '../components/Card';
+import style from "../styles/Grid.module.css";
 
 const Search = () => {
     const [searchParams] = useSearchParams();
@@ -18,9 +21,28 @@ const Search = () => {
 
     return (
         <div>
-            Search {Object.fromEntries(searchParams).q}
+            Search Results for {Object.fromEntries(searchParams).q}
             <br/>
-            {/* {data?.map()} */}
+            <div className={style.grid_container} style={{
+                // backgroundColor: theme ? "rgb(100,100,100)" : "white",
+                // color: theme ? "white" : "black",
+            }}>
+                {
+                    data.map((element) => (
+                        <div className='card' key={element._id}>
+                            <Suspense fallback={<NotFound />}>
+                                <Card
+                                    _id={element._id}
+                                    imgurl={element.imgurl || "https://cdn.vectorstock.com/i/1000x1000/85/43/error-page-not-found-vector-27898543.webp"}
+                                    itemName={element.name}
+                                />
+                            </Suspense>
+                        </div>
+                    ))
+                }
+
+                End of Results
+            </div>
         </div>
     )
 }
