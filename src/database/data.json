@@ -1,0 +1,32 @@
+[
+	{
+		"_id":"0",
+		"name": "beach beauty",
+		"imgurl": "https://images.unsplash.com/photo-1676019416938-27adeadf91f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+	},
+	{
+		"_id":"1",
+		"name": "nature",
+		"imgurl":"https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=1060&t=st=1682544206~exp=1682544806~hmac=bd030c7f2808a55196ab05fb492c6e2979a123f0a2cc075966dac6c47008d99c"
+	},
+	{
+		"color": "blue",
+		"value": "#00f"
+	},
+	{
+		"color": "cyan",
+		"value": "#0ff"
+	},
+	{
+		"color": "magenta",
+		"value": "#f0f"
+	},
+	{
+		"color": "yellow",
+		"value": "#ff0"
+	},
+	{
+		"color": "black",
+		"value": "#000"
+	}
+]
